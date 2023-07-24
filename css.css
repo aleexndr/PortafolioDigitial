@@ -1,0 +1,517 @@
+/* FUENTE DE LETRA */
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;300;400;500;800&display=swap');
+
+/* ----------GENERAL---------- */
+* {
+    font-family: 'Saira';
+}
+
+body {
+  left: 0;
+}
+
+.marco {
+  border: solid #000 2px;
+}
+/* ----------GENERAL---------- */
+
+
+
+/* ----------SCROLLBAR---------- */
+.contenedor::-webkit-scrollbar{
+  width: 7px;
+  background: rgba(33, 34, 33, 0.993);
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+  background: #0cb7f2;
+  border-radius: 8px;
+}
+/* ----------SCROLLBAR---------- */
+
+
+
+
+
+/* ----------FONDO---------- */
+.fondo {
+  background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(image/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  align-items: center;
+
+}
+/* ----------FONDO---------- */
+
+
+
+
+
+/* ----------RESPONSIVE---------- */
+.borde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+/* ----------RESPONSIVE---------- */
+
+
+
+
+
+/* ----------NAVBAR---------- */
+.nav-nav {
+  background: #1e2326;
+  color: #0cb7f2;
+  border-bottom: #5e5e5e solid 1px;
+}
+
+.fixed-top-personalizado {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.espacio {
+  padding-left: 26px;
+}
+
+.espacio button {
+  background-color: #0e76a8;
+}
+
+.titulo-nav a span {
+  color: #0cb7f2;
+  font-size: 28px;
+}
+
+.enlaces li {
+  margin-inline: 20px;
+}
+
+.enlaces li a {
+  color: #0e76a8;
+  font-size: 18px;
+}
+
+.enlaces li a:hover {
+  color: #0cb7f2;
+}
+/* ----------NAVBAR---------- */
+
+
+/* ----------INICIO---------- */
+.bloque-inicio {
+  display: block;
+  padding-top: 85px;
+}
+
+.imagen {
+  margin: auto;
+  max-width:240px;
+}
+
+.imagen img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-block: 15px;
+}
+.texto {
+  display: block;
+}
+
+.texto h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+.texto p span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+  color: #0cb7f2;
+}
+
+/* ----------REDES SOCIALES---------- */
+:root {
+    --link-size: 45px;
+    --trans-props: all 0.3s ease;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper,
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .social-icon {
+    display: flex;
+    position: relative;
+    overflow: hidden; 
+    width: var(--link-size);
+    height: var(--link-size);
+    margin: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+    transition: var(--trans-props);
+  }
+  
+  .social-icon i {
+    margin: auto;
+    font-size: 22px;
+    color: hsl(212, 16%, 48%);  
+    z-index: 1;
+    transition: var(--trans-props);
+  }
+  
+  .social-icon:after {
+    content: "";
+  
+    width: var(--link-size);
+    height: var(--link-size);
+  
+    position: absolute;
+  
+    transform: translate(0, var(--link-size));
+  
+    border-radius: 50%;
+    transition: var(--trans-props);
+  }
+  
+  .social-icon.linkedin:after {
+    background-color: #0e76a8;
+  }
+  
+  .social-icon.github:after {
+    background-color: #24292e;
+  }
+
+  .social-icon.facebook:after {
+    background-color: #3b5998;
+  }
+  
+  .social-icon.instagram:after {
+    background-image: linear-gradient(
+      to bottom left,
+      #4f5bd5,
+      #962fbf,
+      #d62976,
+      #fa7e1e,
+      #feda75
+    );
+  }
+  
+  /* -----ANIMACIONES-----*/
+  .social-icon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
+  }
+  
+  .social-icon:hover i {
+    transform: scale(1.1);
+    color: #fff;
+  }
+  
+  .social-icon:hover:after {
+    transform: translate(0) scale(1.2);
+  }
+  /* ----------INICIO---------- */
+
+
+
+
+
+/* ----------SOBRE MI---------- */
+.bloque-sobremi {
+  display: block;
+  flex-flow: row wrap;
+  background-color: #1e2326;
+  border: #0e76a8 solid 5px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-block: 20px;
+}
+
+.titulo-sobremi {
+  color: #0cb7f2;
+  text-align: center;
+}
+
+.titulo-sobremi h1 {
+  font-size: 40px;
+}
+
+.bloque-sobremi p {
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-flow: row wrap;
+  padding-inline: 15px;
+}
+
+.bloque-sobremi p span {
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-flow: row wrap;
+  color: #0cb7f2;
+  /* font-style: italic; */
+}
+
+.CV-contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.CV-contenedor button {
+  background-color: #0e76a8;
+}
+
+.CV-contenedor button:hover {
+  background-color: #0cb7f2;
+}
+
+.CV-contenedor button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.contenedor-gif {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  padding-top: 100px;
+  margin-inline: 50px;
+}
+
+.contenedor-gif .gif {
+  border: #000 solid 3px;
+  margin: auto;
+  max-width: 500px;
+  height: auto;
+}
+
+.contenedor-gif .gif img {
+  max-width: 100%;
+  height: auto;
+}
+/* ----------SOBRE MI---------- */
+
+
+
+
+
+/* ----------SKILLS---------- */
+.bloque-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 100px;
+}
+
+.titulo-skills {
+  color: #0cb7f2;
+}
+
+.titulo-skills h1 {
+  font-size: 40px;
+}
+
+.subbloque-skills {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-block: 20px;
+  flex-flow: row wrap;
+  background-color: #1e2326;
+  border: #0e76a8 solid 5px;
+  border-radius: 50px;
+}
+
+.subbloque-skills .img-github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+}
+
+.subbloque-skills .img-github img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.subbloque-skills .img-git {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+}
+
+.subbloque-skills .img-git img {
+  width: 100%;
+  height: auto;
+}
+
+.subbloque-skills .img-html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+}
+
+.subbloque-skills .img-html img {
+  width: 100%;
+  height: auto;
+}
+
+.subbloque-skills .img-css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+}
+
+.subbloque-skills .img-css img {
+  width: 100%;
+  height: auto;
+}
+
+.subbloque-skills .img-bootstrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+}
+
+.subbloque-skills .img-bootstrap img {
+  width: 100%;
+  height: auto;
+}
+
+.subbloque-skills .img-django {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  margin: 30px
+}
+
+.subbloque-skills .img-django img {
+  width: 100%;
+  height: auto;
+}
+
+.subbloque-skills .img-python {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+} 
+
+.subbloque-skills .img-python img {
+  width: 100%;
+  height: auto;
+}
+
+.subbloque-skills .img-sql {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: 30px
+} 
+
+.subbloque-skills .img-sql img {
+  width: 100%;
+  height: auto;
+}
+/* ----------SKILLS---------- */
+
+/* ----------FOOTER---------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e2326;
+  padding: 15px;
+}
+
+.footer p {
+  display: flex;
+  text-align: center;
+  flex-flow: wrap;
+  padding-top: 8px;
+
+}
+/* ----------FOOTER---------- */
+
+
+
+/*----------BURBUJAS----------*/
+/* .burbujas {
+  position: relative;
+  display: flex;
+}
+
+.burbujas span {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #0e76a8;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 14px #4fc3dc44, 0 0 50px #0cb7f2, 0 0 96px #0cb7f2;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(125s / var(--1)); 
+}
+
+.burbujas span:nth-child(even) {
+  background: #10657E;
+  box-shadow: 0 0 0 6px #10657E44, 0 0 50px #10657E, 0 0 94px #10657E;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
+} */
+/*----------BURBUJAS----------*/
