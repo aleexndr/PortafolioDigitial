@@ -369,12 +369,12 @@ body {
   border-radius: 100%;
   background-color: #fff;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-github img:hover {
   transform: scale(1.2);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-git {
@@ -390,12 +390,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-git img:hover {
   transform: scale(1.3);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-html {
@@ -411,12 +411,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-html img:hover {
   transform: scale(1.3);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-css {
@@ -432,12 +432,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-css img:hover {
   transform: scale(1.3);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-bootstrap {
@@ -453,12 +453,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-bootstrap img:hover {
   transform: scale(1.3);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-django {
@@ -474,12 +474,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-django img:hover {
   transform: scale(1.2);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-python {
@@ -495,12 +495,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-python img:hover {
   transform: scale(1.2);
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-sql {
@@ -516,12 +516,12 @@ body {
   height: auto;
   margin-block: 7px;
   cursor: pointer;
-  transition: 1s;
+  transition: .3s;
 }
 
 .subbloque-skills .img-sql img:hover {
   transform: scale(1.2);
-  transition: 1s;
+  transition: .3s;
 }
 /* ----------SKILLS---------- */
 
