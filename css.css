@@ -33,7 +33,7 @@ body {
 
 
 
-/* ----------FONDO---------- */
+/* ----------FONDO ---------- */
 .fondo {
   background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(image/fondo.jpg);
   background-size: cover;
@@ -365,8 +365,16 @@ body {
 .subbloque-skills .img-github img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
   border-radius: 100%;
   background-color: #fff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-github img:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 
 .subbloque-skills .img-git {
@@ -380,6 +388,14 @@ body {
 .subbloque-skills .img-git img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-git img:hover {
+  transform: scale(1.3);
+  transition: 1s;
 }
 
 .subbloque-skills .img-html {
@@ -393,6 +409,14 @@ body {
 .subbloque-skills .img-html img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-html img:hover {
+  transform: scale(1.3);
+  transition: 1s;
 }
 
 .subbloque-skills .img-css {
@@ -406,6 +430,14 @@ body {
 .subbloque-skills .img-css img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-css img:hover {
+  transform: scale(1.3);
+  transition: 1s;
 }
 
 .subbloque-skills .img-bootstrap {
@@ -419,6 +451,14 @@ body {
 .subbloque-skills .img-bootstrap img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-bootstrap img:hover {
+  transform: scale(1.3);
+  transition: 1s;
 }
 
 .subbloque-skills .img-django {
@@ -432,6 +472,14 @@ body {
 .subbloque-skills .img-django img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-django img:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 
 .subbloque-skills .img-python {
@@ -445,6 +493,14 @@ body {
 .subbloque-skills .img-python img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-python img:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 
 .subbloque-skills .img-sql {
@@ -458,6 +514,14 @@ body {
 .subbloque-skills .img-sql img {
   width: 100%;
   height: auto;
+  margin-block: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.subbloque-skills .img-sql img:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 /* ----------SKILLS---------- */
 
@@ -479,39 +543,3 @@ body {
 
 }
 /* ----------FOOTER---------- */
-
-
-
-/*----------BURBUJAS----------*/
-/* .burbujas {
-  position: relative;
-  display: flex;
-}
-
-.burbujas span {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background: #0e76a8;
-  margin: 0 4px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 14px #4fc3dc44, 0 0 50px #0cb7f2, 0 0 96px #0cb7f2;
-  animation: animate 15s linear infinite;
-  animation-duration: calc(125s / var(--1)); 
-}
-
-.burbujas span:nth-child(even) {
-  background: #10657E;
-  box-shadow: 0 0 0 6px #10657E44, 0 0 50px #10657E, 0 0 94px #10657E;
-}
-
-@keyframes animate {
-  0% {
-    transform: translateY(100vh) scale(0);
-  }
-
-  100% {
-    transform: translateY(-10vh) scale(1);
-  }
-} */
-/*----------BURBUJAS----------*/
